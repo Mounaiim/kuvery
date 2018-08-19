@@ -13,15 +13,13 @@
  *= require_tree .
  *= require_self
  */
- 
+
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
 h1,h2,h3{
     font-family: 'Open Sans', sans-serif
 }
-
-
 .navbar, .home-callout {
     //gradient provided by me @uiGradients.com
 //background: #2980B9;  /* fallback for old browsers */
@@ -30,30 +28,24 @@ h1,h2,h3{
 background: #00C9FF;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
-
 .navbar{
     border: none;
 }
-
+//home page styles 
 .home-callout{
     margin-top: -20px;
     padding-bottom: 100px;
     padding-top: 50px;
-    
     color:white;
 }
-.navbar-default .navbar-brand{
+// navbar styles
+//DRY: dont repeat your self & write less code. 
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-nav > li > a{
     color: white;
     font-weight:bolder;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: white;
-    font-weight: bolder;
-}
-.navbar-default .navbar-brand:hover{
+    &:hover{
     color: black;
-    opacity: 7;
+    opacity: 7;}
 }
