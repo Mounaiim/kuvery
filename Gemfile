@@ -36,8 +36,13 @@ gem 'jbuilder', '~> 2.5'
 #Use twitter bootstrap library for front-end UI and Layout
 gem 'bootstrap-sass', '3.3.7'
 
+# Use font awesome sass gemfor adding icons 
+gem 'font-awesome-sass', '4.6.2'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
