@@ -24,9 +24,12 @@ h1,h2,h3{
 
 .navbar, .home-callout {
     //gradient provided by me @uiGradients.com
-background: #2980B9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//background: #2980B9;  /* fallback for old browsers */
+//background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+//background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -40,4 +43,17 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
     padding-top: 50px;
     
     color:white;
+}
+.navbar-default .navbar-brand{
+    color: white;
+    font-weight:bolder;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bolder;
+}
+.navbar-default .navbar-brand:hover{
+    color: black;
+    opacity: 7;
 }
