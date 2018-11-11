@@ -19,15 +19,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a href="/" class="navbar-brand"><i class="fa fa-institution"></i></i> Kuvery</a>
-            <%= link_to "/", Class: "navbar-brand" do %>
+            <!--a href="/" class="navbar-brand"><i class="fa fa-institution"></i></i> Kuvery</a-->
+            <%= link_to root_path, Class: "navbar-brand" do %>
             <i class="fa fa-group"></i>
              TechMarra
               <% end %>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "About", "/about" %></li> <!-- writing a link using rails>
+            <li><%= link_to "About", about_path %></li> <!-- writing a link using rails>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
