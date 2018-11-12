@@ -34,6 +34,12 @@ background: linear-gradient(to left, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Fi
 .navbar{
     border: none;
 }
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 8000;
+    
+}
 //home page styles 
 .home-callout{
     margin-top: -20px;
