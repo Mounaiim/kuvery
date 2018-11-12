@@ -57,3 +57,13 @@ background: linear-gradient(to left, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Fi
     color: black;
     opacity: 7;}
 }
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: White;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+  background-color: #80FF00;
+  }
+}
