@@ -10,8 +10,6 @@
   </head>
 
   <body>
-     
-
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class='container'>
         <div class="navbar-header">
@@ -25,13 +23,14 @@
            <%= link_to root_path, Class: "navbar-brand" do %>
             <i class="fa fa-institution"></i>
              Kuvery
-              <% end %>
+            <% end %>
         </div>
         
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "ABOUT", about_path %></li> <!-- writing a link using rails-->
+            <li><%= link_to "about", about_path %></li> <!-- writing a link using rails-->
           </ul>
+          
         </div><!--/.navbar-collapse -->
       </div>
     <%= yield %>
